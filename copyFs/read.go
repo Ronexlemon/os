@@ -33,7 +33,7 @@ func getAllFileNames(filepath string) {
 }
 
 func ReadFiles() {
-	source := "/home/lemon/Desktop/Go/AllGO/"
+	source := "/home/lemon/Desktop/Go/AllGO"
 	getAllFileNames(source) // Start reading from the source directory
 }
 
