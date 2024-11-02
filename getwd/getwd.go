@@ -23,6 +23,7 @@ func Getwd() {
 	}
 	defer file.Close()
 	_,err=file.WriteString("package main \n  import (`fmt`) \n func Global(){\n num:=300 \n fmt.Println(num) }")
+	_,err=file.WriteString("package main \n  import (`fmt`) \n func Global(){\n num:=300 \n fmt.Println(num) }")
 	
 	if err!=nil{
 		log.Fatal("failed to write to file",err)
