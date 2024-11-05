@@ -5,7 +5,7 @@ import (
 	"os"
 )
 
-func Getwd() {
+func GAetwd() {
 	//get working dir
 	path, err := os.Getwd()
 	if err != nil {
@@ -31,6 +31,6 @@ func Getwd() {
 		}
 }
 
-func main(){
-	Getwd()
+func New(){
+	GAetwd()
 }
